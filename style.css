@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#fstsn{
+    height: 74vh;
+    background-image: url("bgrdimg.jpg");
+    /* opacity: 0.3; */
+}
+#inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+nav img{
+    height: 50px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    z-index: 10;
+}
+#basic{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+nav select{
+    padding: 7px 20px;
+    background-color: rgba(23, 23,23,0.5);
+    color: white;
+    font-weight: 550;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+nav button{
+    padding: 7px 12px;
+    background-color: red;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 25%;
+}
+.line1{
+    font-size: 50px;
+    font-weight: 770;
+    font-family: system-ui;
+}
+.line2{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: system-ui;
+}
+.line3{
+    font-size: 20px;
+    font-weight: 250;
+    font-family: system-ui;
+}
+#login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28%;
+    position: relative;
+    bottom: 170px;
+}
+#login input{
+    padding: 18px 145px 18px 10px;
+    background-color: rgba(23, 23,23,0.6);
+    border: 1px solid rgb(85, 84, 84);
+}
+#login button{
+    background-color: red;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    font-size: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+#sndsn{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.separate{
+    height: 7px;
+    background-color: rgb(70, 68, 68);
+}
+#tv1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+.line4{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: system-ui;
+}
+.line5{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+#sndsn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tv2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tv2 video{
+    position: absolute;
+    z-index: -1;
+    /* bottom: 1px; */
+}
+#tv2 img{
+    height: 75%;
+}
+#mobile{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 35%;
+    color: white;
+}
+#sthing{
+    width: 50%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: relative;
+    left: 155px;
+    bottom: 150px;
+    padding: 10px;
+    border: 2px solid rgb(70, 66, 66);
+    border-radius: 10px;
+}
+#sthing img{
+    height: 80px;
+}
+.notfn{
+    position: relative;
+    left: 20px;
+}
+.notfn p{
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 500;
+}
+.notfn span{
+    color: blue;
+    font-size: 15px;
+    font-weight: 500;
+}
+#tips{
+    color: white;
+    width: 30%;
+}
+#tips p{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: system-ui;
+}
+#tips span{
+    font-size: 23px;
+    font-weight: 450;
+    font-family: system-ui;
+}
+#trdsn{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
